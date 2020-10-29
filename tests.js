@@ -53,7 +53,11 @@ test(function() {
 });
 
 test(function() {
-  assertEqual(3, 3);
+  assertEqual(4, 4);
+});
+
+test(function() {
+  assertEqual(5, 5);
 });
 
 runTests();
